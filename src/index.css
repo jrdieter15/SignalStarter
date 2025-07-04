@@ -1,0 +1,193 @@
+/* Import Destilj Design System */
+@import url('../Design system/Destilj.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  /* Button Components */
+  .btn {
+    @apply inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary text-primary-foreground hover:bg-primary/90 shadow;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-secondary text-secondary-foreground hover:bg-secondary/80;
+  }
+  
+  .btn-outline {
+    @apply btn border border-border bg-background hover:bg-accent hover:text-accent-foreground;
+  }
+  
+  .btn-ghost {
+    @apply btn hover:bg-accent hover:text-accent-foreground;
+  }
+  
+  /* Card Components */
+  .card {
+    @apply rounded-lg border bg-card text-card-foreground shadow;
+  }
+  
+  .card-header {
+    @apply flex flex-col space-y-1.5 p-6;
+  }
+  
+  .card-title {
+    @apply text-2xl font-semibold leading-none tracking-tight;
+  }
+  
+  .card-description {
+    @apply text-sm text-muted-foreground;
+  }
+  
+  .card-content {
+    @apply p-6 pt-0;
+  }
+  
+  .card-footer {
+    @apply flex items-center p-6 pt-0;
+  }
+  
+  /* Input Components */
+  .input {
+    @apply flex h-10 w-full rounded-lg border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  
+  /* KPI Card Styles */
+  .kpi-card {
+    @apply card p-6 hover:shadow-md transition-shadow;
+  }
+  
+  .kpi-value {
+    @apply text-3xl font-bold tracking-tight;
+  }
+  
+  .kpi-label {
+    @apply text-sm font-medium text-muted-foreground;
+  }
+  
+  .kpi-change {
+    @apply text-sm font-medium;
+  }
+  
+  .kpi-change.positive {
+    @apply text-green-600;
+  }
+  
+  .kpi-change.negative {
+    @apply text-red-600;
+  }
+  
+  .kpi-change.neutral {
+    @apply text-muted-foreground;
+  }
+  
+  /* Chart Container */
+  .chart-container {
+    @apply w-full h-64 md:h-80;
+  }
+  
+  /* Navigation */
+  .nav-link {
+    @apply flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary hover:bg-accent;
+  }
+  
+  .nav-link.active {
+    @apply bg-accent text-accent-foreground;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    @apply hidden border-r bg-muted/40 md:block;
+  }
+  
+  .sidebar-content {
+    @apply flex h-full max-h-screen flex-col gap-2;
+  }
+  
+  .sidebar-header {
+    @apply flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6;
+  }
+  
+  .sidebar-nav {
+    @apply flex-1 px-2 lg:px-4;
+  }
+  
+  /* Alert Styles */
+  .alert {
+    @apply relative w-full rounded-lg border p-4;
+  }
+  
+  .alert-destructive {
+    @apply border-destructive/50 text-destructive;
+  }
+  
+  .alert-warning {
+    @apply border-yellow-500/50 text-yellow-600;
+  }
+  
+  .alert-success {
+    @apply border-green-500/50 text-green-600;
+  }
+  
+  .alert-info {
+    @apply border-blue-500/50 text-blue-600;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.5);
+}
+
+/* Loading animations */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Skeleton loading */
+.skeleton {
+  @apply animate-pulse rounded-lg bg-muted;
+}
+
+/* Focus styles for accessibility */
+.focus-visible {
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2;
+}
