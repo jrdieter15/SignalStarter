@@ -1,0 +1,1 @@
+{ "name": "signalcraft", "backend": { "entry": "backend/main.py" } }
