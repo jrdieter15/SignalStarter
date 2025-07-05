@@ -1,0 +1,441 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f4f0f0] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#181111]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M13.8261 30.5736C16.7203 29.8826 20.2244 29.4783 24 29.4783C27.7756 29.4783 31.2797 29.8826 34.1739 30.5736C36.9144 31.2278 39.9967 32.7669 41.3563 33.8352L24.8486 7.36089C24.4571 6.73303 23.5429 6.73303 23.1514 7.36089L6.64374 33.8352C8.00331 32.7669 11.0856 31.2278 13.8261 30.5736Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M39.998 35.764C39.9944 35.7463 39.9875 35.7155 39.9748 35.6706C39.9436 35.5601 39.8949 35.4259 39.8346 35.2825C39.8168 35.2403 39.7989 35.1993 39.7813 35.1602C38.5103 34.2887 35.9788 33.0607 33.7095 32.5189C30.9875 31.8691 27.6413 31.4783 24 31.4783C20.3587 31.4783 17.0125 31.8691 14.2905 32.5189C12.0012 33.0654 9.44505 34.3104 8.18538 35.1832C8.17384 35.2075 8.16216 35.233 8.15052 35.2592C8.09919 35.3751 8.05721 35.4886 8.02977 35.589C8.00356 35.6848 8.00039 35.7333 8.00004 35.7388C8.00004 35.739 8 35.7393 8.00004 35.7388C8.00004 35.7641 8.0104 36.0767 8.68485 36.6314C9.34546 37.1746 10.4222 37.7531 11.9291 38.2772C14.9242 39.319 19.1919 40 24 40C28.8081 40 33.0758 39.319 36.0709 38.2772C37.5778 37.7531 38.6545 37.1746 39.3151 36.6314C39.9006 36.1499 39.9857 35.8511 39.998 35.764ZM4.95178 32.7688L21.4543 6.30267C22.6288 4.4191 25.3712 4.41909 26.5457 6.30267L43.0534 32.777C43.0709 32.8052 43.0878 32.8338 43.104 32.8629L41.3563 33.8352C43.104 32.8629 43.1038 32.8626 43.104 32.8629L43.1051 32.865L43.1065 32.8675L43.1101 32.8739L43.1199 32.8918C43.1276 32.906 43.1377 32.9246 43.1497 32.9473C43.1738 32.9925 43.2062 33.0545 43.244 33.1299C43.319 33.2792 43.4196 33.489 43.5217 33.7317C43.6901 34.1321 44 34.9311 44 35.7391C44 37.4427 43.003 38.7775 41.8558 39.7209C40.6947 40.6757 39.1354 41.4464 37.385 42.0552C33.8654 43.2794 29.133 44 24 44C18.867 44 14.1346 43.2794 10.615 42.0552C8.86463 41.4464 7.30529 40.6757 6.14419 39.7209C4.99695 38.7775 3.99999 37.4427 3.99999 35.7391C3.99999 34.8725 4.29264 34.0922 4.49321 33.6393C4.60375 33.3898 4.71348 33.1804 4.79687 33.0311C4.83898 32.9556 4.87547 32.8935 4.9035 32.8471C4.91754 32.8238 4.92954 32.8043 4.93916 32.7889L4.94662 32.777L4.95178 32.7688ZM35.9868 29.004L24 9.77997L12.0131 29.004C12.4661 28.8609 12.9179 28.7342 13.3617 28.6282C16.4281 27.8961 20.0901 27.4783 24 27.4783C27.9099 27.4783 31.5719 27.8961 34.6383 28.6282C35.082 28.7342 35.5339 28.8609 35.9868 29.004Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#181111] text-lg font-bold leading-tight tracking-[-0.015em]">Insightful</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#181111] text-sm font-medium leading-normal" href="#">Product</a>
+              <a class="text-[#181111] text-sm font-medium leading-normal" href="#">Solutions</a>
+              <a class="text-[#181111] text-sm font-medium leading-normal" href="#">Resources</a>
+              <a class="text-[#181111] text-sm font-medium leading-normal" href="#">Pricing</a>
+            </div>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded h-10 px-4 bg-[#e92929] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Get started</span>
+            </button>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded items-start justify-end px-4 pb-10 @[480px]:px-10"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuD6PR1pkj7mQuKX8T3IBpaFXS5bONbVcG_BlpIFvXdK-IbZN1TnHIymn_iFP2zbv05V8s075vzfQhmN4i-NG-C7zYsNQk0S6DlJG0-Yd7Qy0VHX33H6amMecQycLLWMsUYcJRPvIBQUOrHqXZvBtUWvq6dPkKg5dNn0VQi24K76FH9ex_wjCApa29yveeehBDXi741RwoJRNPpv-MQiDDmNLSVrfMiidmw-1mOMLzCm8DfWxxK9eSij3PpL8X54ZAD9TjK2NRuj-Sg");'
+                >
+                  <div class="flex flex-col gap-2 text-left">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      Unlock the Power of Data-Driven Decisions
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Transform raw data into actionable insights with our comprehensive business intelligence platform. Gain a competitive edge with real-time dashboards,
+                      predictive analytics, and local market intelligence.
+                    </h2>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#e92929] text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                  >
+                    <span class="truncate">Get Started</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#181111] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Key Features</h2>
+            <div class="pb-3">
+              <div class="flex border-b border-[#e5dcdc] px-4 gap-8">
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#181111] text-[#181111] pb-[13px] pt-4" href="#">
+                  <p class="text-[#181111] text-sm font-bold leading-normal tracking-[0.015em]">Dashboards &amp; KPIs</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Forecasting &amp; Trends</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Local Intelligence Radar</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Conversational Assistant</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Security &amp; Privacy</p>
+                </a>
+              </div>
+            </div>
+            <div class="flex flex-col gap-10 px-4 py-10 @container">
+              <div class="flex flex-col gap-4">
+                <h1
+                  class="text-[#181111] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]"
+                >
+                  Dashboards &amp; KPIs
+                </h1>
+                <p class="text-[#181111] text-base font-normal leading-normal max-w-[720px]">
+                  Visualize your key performance indicators (KPIs) and metrics in real-time with interactive dashboards. Track progress, identify trends, and make informed
+                  decisions with ease.
+                </p>
+              </div>
+              <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3">
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBCazfxfd3nr-zJIeak-0SlX1phOM9loxwh0V4Bfixqke9sb0v05jjr1oHNG1ztQvx48KJUCFAmSV9Xp97mOneySEUqYBr8nypDovLVFmNxCZdwu5pPhDhWs13DQ8X_ebfqU88UfpFMNWZeofNvOqqr1js7nqZBsYKzfCMk9udwVQUAknqtd22HZEauP0EFGNiZATTuOX85TuVLbAbXIbIki6oXUnNI_yGo7itKWWiJWFyMH3qVs7-P-5U9giB4uqjwXsVXk3XH2Bs");'
+                  ></div>
+                  <div>
+                    <p class="text-[#181111] text-base font-medium leading-normal">Customizable Dashboards</p>
+                    <p class="text-[#886363] text-sm font-normal leading-normal">Create dashboards tailored to your specific business needs with a drag-and-drop interface.</p>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAHOCuQfsGVj6kwnTqGcqwJKgygUiwL0AwMgbkvWKFs48rau0KEAehHOWZBNuCVcWBJsLBnaen_aGbtOzEMvDoieAy4gA4Eo2VlzmUHB1yq5OYfi88gkX-xSly7sevFZ5rWV1FRYjYlstWtjwSHAegSg0uFs-vHU36Sr1cA_eMx9KRVzU6mehGZSV2uv3XamCzTcdSxKElyoODzTIwgGSGM-HfFfDfq1vkr5vxTQar2gclsXCHh0siiTEy94Rl8x33uVWzWzQkWV1s");'
+                  ></div>
+                  <div>
+                    <p class="text-[#181111] text-base font-medium leading-normal">Real-Time Data Updates</p>
+                    <p class="text-[#886363] text-sm font-normal leading-normal">Stay up-to-date with the latest information through automatic data refreshes.</p>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAmtWmm0br875PRTVOpXyMsMEKKPEoPncis_yT3U9FCW4XCnmdrXy3ODokdK_ewVrpc6X2d8WZjRYEx2791kXX3fh8CnegQeT5rCc0FO6nKdzPz-M7rpGwvfUm05R4yh5x1mxvkbtbUJWgBmAfv1kVTYvLi0UGiQPLJIqk8TZTB8AXFNQkQJmt6WW2w6uRx3zWmAdj6n3nceb9vRk82XnNrzORqHn_FsZZoTdXai6pTplWuJO3b-l7XbhPZhm_3aQFs_lXSSJrrvpk");'
+                  ></div>
+                  <div>
+                    <p class="text-[#181111] text-base font-medium leading-normal">Mobile Accessibility</p>
+                    <p class="text-[#886363] text-sm font-normal leading-normal">Access your dashboards on any device, anytime, anywhere.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pb-3">
+              <div class="flex border-b border-[#e5dcdc] px-4 gap-8">
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Dashboards &amp; KPIs</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#181111] text-[#181111] pb-[13px] pt-4" href="#">
+                  <p class="text-[#181111] text-sm font-bold leading-normal tracking-[0.015em]">Forecasting &amp; Trends</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Local Intelligence Radar</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Conversational Assistant</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Security &amp; Privacy</p>
+                </a>
+              </div>
+            </div>
+            <div class="flex flex-col gap-10 px-4 py-10 @container">
+              <div class="flex flex-col gap-4">
+                <h1
+                  class="text-[#181111] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]"
+                >
+                  Forecasting &amp; Trends
+                </h1>
+                <p class="text-[#181111] text-base font-normal leading-normal max-w-[720px]">
+                  Predict future outcomes and identify emerging trends with advanced forecasting models. Analyze historical data, simulate scenarios, and optimize your strategies
+                  for success.
+                </p>
+              </div>
+              <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3">
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD550pyl6TK_CFJBCsjS6WafVsSJz5lMZEnkokv5owWovnOLoz2PUwbBMrqPYr5atnRg-pJ7eno_6WX0mut191ppMxlYHnsQ4caUgmQWs-a-6BKQTxyQwM0JXofn9R8ukhzHg7nW34VbCmDT9w-yQ88gLRwnaCOWR_Fg8j-LZ1e3U6FKqT6hILLDZFy_gU2wbClCPR_E7RZYFu9q4bmhLH8Lc_18fQRzQF8ZCWitNRN3RLbBuX6Q2dUtamS9zls1FH44Cf_3xvTrsU");'
+                  ></div>
+                  <div>
+                    <p class="text-[#181111] text-base font-medium leading-normal">Predictive Analytics</p>
+                    <p class="text-[#886363] text-sm font-normal leading-normal">
+                      Leverage machine learning algorithms to forecast future performance and anticipate market changes.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDWPh7CwdIzcT-9OwKnTOC6Q8850EUpbSovT7TDTz3TsC06RlNIrf7tymjwhKn3YlpE0jVuGXGYKzCZSqBSeITmKUAgZMxwkEkZrFS1LWdMHwzr3NGxeXJ_EtHSNH-eDcqsPxI7mKJgpwhQ2InctMgEtc6CG4JOdzY8RcCFwJGnl-KKNYSBRqw-g579eV0seRtX46t1AxiHh-m9WJcuwXVFF3CI9-xPpuNnkmY39MgSWI5Bh5BIt5GNV3ReztciTFEKQ-CngS71ewM");'
+                  ></div>
+                  <div>
+                    <p class="text-[#181111] text-base font-medium leading-normal">Trend Identification</p>
+                    <p class="text-[#886363] text-sm font-normal leading-normal">Uncover hidden patterns and trends in your data to gain a competitive advantage.</p>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB4ZFLBQvufAAOCVZSi7QbAN4DZYaIL1e_uRbgU2x1tBElKnK0Zjdv24qiI8dz5uRjuRAL07Qy-HQjeqNg_As0ByLY39yrNKlllRBXxZ8gpe3hZ6ziCa63BjQSBcOJNo9OlPIdSpYL4l5OiXEX76vk-1DEt43eDsNoY5Ng_23PDk1GNLzrObE9iVK6BLlhUvpYCD-pqPI3GrbaH4e9VnS67-GVEdEaFUGb4YrkZ1MLtQ4sJU8nqPcBHl7twTDStMIBZ-J94lfHDfh8");'
+                  ></div>
+                  <div>
+                    <p class="text-[#181111] text-base font-medium leading-normal">Scenario Planning</p>
+                    <p class="text-[#886363] text-sm font-normal leading-normal">Evaluate different strategies and their potential impact with scenario planning tools.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pb-3">
+              <div class="flex border-b border-[#e5dcdc] px-4 gap-8">
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Dashboards &amp; KPIs</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#181111] text-[#181111] pb-[13px] pt-4" href="#">
+                  <p class="text-[#181111] text-sm font-bold leading-normal tracking-[0.015em]">Local Intelligence Radar</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Conversational Assistant</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Security &amp; Privacy</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Forecasting &amp; Trends</p>
+                </a>
+              </div>
+            </div>
+            <div class="flex flex-col gap-10 px-4 py-10 @container">
+              <div class="flex flex-col gap-4">
+                <h1
+                  class="text-[#181111] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]"
+                >
+                  Local Intelligence Radar
+                </h1>
+                <p class="text-[#181111] text-base font-normal leading-normal max-w-[720px]">
+                  Gain insights into local market dynamics and consumer behavior with our intelligence radar. Understand regional trends, competitor activity, and customer
+                  preferences to tailor your strategies for specific markets.
+                </p>
+              </div>
+              <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3">
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCyYyu5l2xvoQKd13Lqa6rMhU4CfC0u0MvxpZzBM3o2IIUWEuvrFk4_O_R1XZK_ju5Bmq62OdpG2JdaI22J_g9pM7-xwSwjENs-aBaXYmmXzVGb_pSgG8Os0fUKaiMEu2sZY-vtk9YKj0HR0x5GzuD9OW9zxRMQO1UaWS2LIDTwrFxSwiXOmNtniVvJ6SRTOwnRklI50sefrb0GQCCKxfTZTh66xcRz8JoJ1UVJqm_k2GirYY2dBaj-518nLpt9qQBllMycCGwy8Es");'
+                  ></div>
+                  <div>
+                    <p class="text-[#181111] text-base font-medium leading-normal">Regional Market Analysis</p>
+                    <p class="text-[#886363] text-sm font-normal leading-normal">Analyze market trends and performance across different geographic regions.</p>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAJsi-XWMTM7gTGdNDoTUyl1XXqqH7Nc0lcRKxL7VtK0NPgTkDb5DS0YHzBQ6bj9jsoQ6lzm6I6KAyuiRlObARQfGeMoPM4i8X0uTLC1D4GT-Sx_kfenR3WItfAYfeLmfrhdS7pzsoorfbji_LyaZnnmozLGgjK_mW69Ot1w3mPtizEvW336iAL26jIAvVO-nq0AVO8DGPvhtFBvxDU4SkR0GHZxbkPKVeN7-QPOzJkUUYP8jYda4G2AAaesE2W-GOtU7Woduops4U");'
+                  ></div>
+                  <div>
+                    <p class="text-[#181111] text-base font-medium leading-normal">Competitor Benchmarking</p>
+                    <p class="text-[#886363] text-sm font-normal leading-normal">Compare your performance against competitors and identify areas for improvement.</p>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB1oulueyzrCpPOXHV3jRy_wsg5UwwMId9GZ3ZNQerntMIhocNwXzNEhuBp-ajDPFHu8idDbQuAX_yvtLwpH-7lH0NkIyD6dnFSIOFgs_378Zdh7e5vnP9odrw0IlLhXymTTuIw9QOoAF8KrGE2ocHTzyfw5NbnmwUhH94pDWyTyigVaIMWg9JLjqtpngBXb2rzM8xSqSG6gazJZIny6NH9Krgq2TIfFBZOAoW0F1k8l2TzW_vMI_vvFjcssNyywUovybrf6cTA_8E");'
+                  ></div>
+                  <div>
+                    <p class="text-[#181111] text-base font-medium leading-normal">Customer Segmentation</p>
+                    <p class="text-[#886363] text-sm font-normal leading-normal">Segment your customer base based on demographics, behavior, and preferences.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pb-3">
+              <div class="flex border-b border-[#e5dcdc] px-4 gap-8">
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Dashboards &amp; KPIs</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Forecasting &amp; Trends</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Local Intelligence Radar</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#181111] text-[#181111] pb-[13px] pt-4" href="#">
+                  <p class="text-[#181111] text-sm font-bold leading-normal tracking-[0.015em]">Conversational Assistant</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Security &amp; Privacy</p>
+                </a>
+              </div>
+            </div>
+            <div class="flex flex-col gap-10 px-4 py-10 @container">
+              <div class="flex flex-col gap-4">
+                <h1
+                  class="text-[#181111] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]"
+                >
+                  Conversational Assistant
+                </h1>
+                <p class="text-[#181111] text-base font-normal leading-normal max-w-[720px]">
+                  Interact with your data using natural language queries with our conversational assistant. Ask questions, generate reports, and gain insights without complex
+                  queries or coding.
+                </p>
+              </div>
+              <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3">
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCXCckeTx6vvr4Fz8fBHPmXCkI2Me-DN-E0n2LBs6qXjbBAfYs-20ja_YrfWhimd1sQHAbYRD99f57DpjPfbd9eFfJbp1et10JTBeUvxyAk5u1xaQnNUBoGYtB2bYtS9z3tNfR6DShjNdFI1OnwPI3SaxAeforwqp9s2mC0vWw3Y9KV2QsmbciWQZuW-1pMbmsfrTuNP3WwUv9IZAwpywqv-RlSjlO5qYJ-n7uautWmv8YjRl8T2A2rWuY95DeSzuyh69tg_nkcpWY");'
+                  ></div>
+                  <div>
+                    <p class="text-[#181111] text-base font-medium leading-normal">Natural Language Processing</p>
+                    <p class="text-[#886363] text-sm font-normal leading-normal">Use everyday language to query your data and get instant answers.</p>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB2CTcHZKar0LL1nY_qm_TyNo_bwjp7CzthrbhSMkazsXPZY1ZEBxSf5zh32sEpfMBaxaRtDmKCBhs1I3RFqlTTLCpPYCDcIpu4rhfgs1QeyIjlriCk8nxOxkCHZWzMp8NZnt7Uw5J2VwAknMYLv8eendcstTq7RqPs1BgQ5d0V6C2G0hPf370Wn0LhKwrz5-zb8yUB8iT0Q98Yg0LgD8yiisvewLkJ-VkQdHKc2qW85tYHVN90xGXIQ3v7DSb1Wk9OAaZPXJxzEo0");'
+                  ></div>
+                  <div>
+                    <p class="text-[#181111] text-base font-medium leading-normal">Automated Reporting</p>
+                    <p class="text-[#886363] text-sm font-normal leading-normal">Generate customized reports and visualizations with simple voice or text commands.</p>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA4byW8R9jt4PQQOVq4sxeiTFMHtxujOi1vwxOIpGPWELoC2NOn7dH4ZQ3W3ElaFOmiHEljHjw_gYi-n85L3uRO5_9zGM57QHU7y3QXMUk2FLhvFrlzEKdMnG5ZtQ06Zxs0Uemvtnfc96c_dt5vPxiLxvK3fIGH0xEeqVT00Mn3e7JERwQEabhx74Iah7kw1qsY5o4sSWPNQ960tgTDKyUveyowpUGhY6IEH8wq61ca0QjisdQzmMlYYkz5ZbBO8vi7jhuzW77GXwM");'
+                  ></div>
+                  <div>
+                    <p class="text-[#181111] text-base font-medium leading-normal">Interactive Data Exploration</p>
+                    <p class="text-[#886363] text-sm font-normal leading-normal">Explore your data in an interactive and intuitive way through conversational interfaces.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pb-3">
+              <div class="flex border-b border-[#e5dcdc] px-4 gap-8">
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Dashboards &amp; KPIs</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Forecasting &amp; Trends</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Local Intelligence Radar</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#886363] pb-[13px] pt-4" href="#">
+                  <p class="text-[#886363] text-sm font-bold leading-normal tracking-[0.015em]">Conversational Assistant</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#181111] text-[#181111] pb-[13px] pt-4" href="#">
+                  <p class="text-[#181111] text-sm font-bold leading-normal tracking-[0.015em]">Security &amp; Privacy</p>
+                </a>
+              </div>
+            </div>
+            <div class="flex flex-col gap-10 px-4 py-10 @container">
+              <div class="flex flex-col gap-4">
+                <h1
+                  class="text-[#181111] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]"
+                >
+                  Security &amp; Privacy
+                </h1>
+                <p class="text-[#181111] text-base font-normal leading-normal max-w-[720px]">
+                  Ensure the security and privacy of your data with our GDPR and PDPA compliant platform. We implement robust security measures to protect your information and
+                  comply with data protection regulations.
+                </p>
+              </div>
+              <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3">
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDbolO4vo18wrHWXIkj8bDoKAkXTAz2TzHflK80s-kaQ8wZVuxJjuY03y13uHNLUrGXCc5TS-K8uTDMuNDBuUAXT_6k4IdfK5xhM6f96uPdGMMPdFTiZj1ukQcUAPaw7jDZfb5dwQIIwpROGIouZAfr3ax2vFPpud08VkJuQNR2p9ZYZbLDsvxfIwtLjUXWcE2aL488v0l9cTz-XAwTThm2bVsinnIHg885S42XgNHHx581D5JBuTfVhbvqSk84gX6eGt9_xIMFb-o");'
+                  ></div>
+                  <div>
+                    <p class="text-[#181111] text-base font-medium leading-normal">Data Encryption</p>
+                    <p class="text-[#886363] text-sm font-normal leading-normal">Protect your data with industry-standard encryption protocols.</p>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBngaB2dis6rgFF6EDrBWdn7uVtxy4FMZjSZ6lHP5FXETH11qfex9l9iL59EDii8vOvkO-26tmmJs2ok26tTD4-JwYG0zp9UTS-9bVoJaXSin9tWx1WW3uR8bYNU3n0TvzuG0jENZ0-YWiyNV95PciHsAq4dL_fEIZqSIdSqlMLxRehFaydLd1q8gyih6h1zcQuxEXUqNn_XUF0FFb_qNoNxy7KJRc8lyyoYnk5qHCXeDgGJALksLywpea--tMf7-cFnbewB9Rj3Yk");'
+                  ></div>
+                  <div>
+                    <p class="text-[#181111] text-base font-medium leading-normal">Access Controls</p>
+                    <p class="text-[#886363] text-sm font-normal leading-normal">Control access to sensitive information with granular permission settings.</p>
+                  </div>
+                </div>
+                <div class="flex flex-col gap-3 pb-3">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDAM4fpDUwJRhuVYbX5ngZUnMXLv3GZALG9I2AfraDgowf6MvO-bj5rfHYzToEfzs8HxPpC5cpDssbG0_4F7o2n185ZAPPpULZpryHChP15qS0kcev_-tDrkyn_t4cil2AvsMoAONULZ8C1fergdzRXScDDaeVE1WHziGEbkikHT7vLUwZsqizaGfvc3pcsMojXVqZDEArclvOpshzPVGWsyBybluvQpEial2Hfg7Cwp6Ictbw8Jg66l05J69tjtchz_o7tJdYFjss");'
+                  ></div>
+                  <div>
+                    <p class="text-[#181111] text-base font-medium leading-normal">Compliance Certifications</p>
+                    <p class="text-[#886363] text-sm font-normal leading-normal">Our platform is certified to meet the highest security and privacy standards.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="@container">
+              <div class="flex flex-col justify-end gap-6 px-4 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20">
+                <div class="flex flex-col gap-2 text-center">
+                  <h1
+                    class="text-[#181111] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]"
+                  >
+                    Ready to Transform Your Business with Data-Driven Insights?
+                  </h1>
+                  <p class="text-[#181111] text-base font-normal leading-normal max-w-[720px">
+                    Start your free trial today and experience the power of our business intelligence platform.
+                  </p>
+                </div>
+                <div class="flex flex-1 justify-center">
+                  <div class="flex justify-center">
+                    <button
+                      class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#e92929] text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] grow"
+                    >
+                      <span class="truncate">Get Started</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="flex justify-center">
+          <div class="flex max-w-[960px] flex-1 flex-col">
+            <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+              <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+                <a class="text-[#886363] text-base font-normal leading-normal min-w-40" href="#">Terms of Service</a>
+                <a class="text-[#886363] text-base font-normal leading-normal min-w-40" href="#">Privacy Policy</a>
+                <a class="text-[#886363] text-base font-normal leading-normal min-w-40" href="#">Contact Us</a>
+              </div>
+              <p class="text-[#886363] text-base font-normal leading-normal">@2024 Insightful. All rights reserved.</p>
+            </footer>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
